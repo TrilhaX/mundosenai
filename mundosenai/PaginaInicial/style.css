@@ -5,16 +5,30 @@
 
 body {
     background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 header {
     background-color: rgb(182, 46, 182);
+    
 }
 
 header h1{
     padding: 10px 0 10px 35px;
     color: white;
     font-size: 40px;
+}
+
+button {
+    margin: 0 0 30px 240px;
+    transition: 0.5s;
+}
+
+button:hover {
+    margin: 0 0 30px 240px;
+    transform: scale(1.1);
+    filter: brightness(1.05);
 }
 
 #acess {
@@ -38,15 +52,38 @@ img {
 }
 
 .quadrado-direita {
-    position: fixed;
+    position: absolute;
     top: 0;         
     right: -600px;       
     width: 100vw;     
     height: 150vh;  
     background-color: rgb(182, 46, 182);
     transform: rotate(110deg);
+
 }
 
-.quadrado-arruma {
-    transform: none;
+.texto-direita {
+    max-width: 400px;
+    position: fixed; 
+    top: 70px;       
+    right: 20px;     
+    padding: 10px;  
+    color: white;    
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.texto-direita h1{
+    padding: 30px 0 70px 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#Memo {
+    color: rgb(102, 2, 102);
+}
+
+#Rix {
+    color: rgb(219, 85, 36);
 }
