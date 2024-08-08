@@ -10,6 +10,6 @@ function verificarResposta() {
         resultado.style.color = 'black';
     } else {
         resultado.textContent = "Incorreto. Tente novamente!";
-        resultado.style.color = 'red';
+        resultado.style.color = 'black';
     }
 }
